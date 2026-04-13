@@ -23,15 +23,15 @@ Sodae está diseñado para operar en múltiples comercios (multi-tenant), permit
 
 Puedes mostrar una imagen o video del flujo de mesas (principal, secundario y terraza):
 
-![Gestión de mesas](docs/gestion-mesas.mp4)
+![Gestión de mesas](docs/gestion-mesas.png)
 
-<video src="docs/gestion-mesas.mp4" controls width="900"></video>
+![VIDEO-DEMO]([docs/gestion-mesas.mp4](https://gyazo.com/b260a7180c0e2cd1ed7fed56dd16bea2))
 
 ### Método de Pago - Mercado Pago
 
 Imagen del flujo de cobro con QR de Mercado Pago:
 
-![Pago Mercado Pago](docs/assets/payments/mercadopago-qr.png)
+![Pago Mercado Pago](docs/mercadopago-qr.png) ![Pago Mercado Pago](docs/celmercadopago-qr.png)
 
 ## Enfoque del Proyecto
 
