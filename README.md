@@ -52,7 +52,7 @@ El objetivo es centralizar la operación diaria en una arquitectura escalable y 
 - **Admin**: backoffice para métricas, usuarios y contabilidad.
 - **POS**: operación en tiempo real del negocio (mesas, pedidos, cocina, cobros).
 
-## Funcionalidades Clave (esperadas)
+## Funcionalidades
 
 - Gestión de mesas por zonas:
   - Piso principal
@@ -65,14 +65,14 @@ El objetivo es centralizar la operación diaria en una arquitectura escalable y 
 - Arquitectura multi-tenant por restaurante/comercio.
 - Comunicación en tiempo real con **WebSockets/SSE** para sincronizar cambios en cocina, salón y caja.
 
-## Stack Tecnológico (objetivo)
+## Stack Tecnológico
 
 - **Frontend**: React + Next.js (App Router)
 - **Backend/API**: Next.js Route Handlers
-- **Lenguajes**: TypeScript, JavaScript, SQL
+- **Lenguajes**: TypeScript, SQL
 - **Base de datos**: MySQL/MariaDB
-- **Tiempo real**: WebSockets o Server-Sent Events (SSE)
-- **Estilos/UI**: CSS/Tailwind (según implementación)
+- **Tiempo real**: WebSockets
+- **Estilos/UI**: CSS
 
 ## Estructura de Carpetas
 
@@ -122,10 +122,3 @@ saas-gastro-structure-only/
   docs/
 ```
 
-## Nota
-
-Este repositorio está diseñado como **base de arquitectura de Sodae**:
-
-- No incluye código fuente funcional de negocio.
-- No incluye lógica de implementación.
-- Sirve como plantilla estructural para iniciar un SaaS gastronómico multi-tenant.
