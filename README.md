@@ -25,13 +25,15 @@ Puedes mostrar una imagen o video del flujo de mesas (principal, secundario y te
 
 ![Gestión de mesas](docs/gestion-mesas.png)
 
-![VIDEO-DEMO]([docs/gestion-mesas.mp4](https://gyazo.com/b260a7180c0e2cd1ed7fed56dd16bea2))
+[VIDEO-DEMO](https://youtu.be/rzIzwL4FfK8)
 
 ### Método de Pago - Mercado Pago
 
 Imagen del flujo de cobro con QR de Mercado Pago:
 
-![Pago Mercado Pago](docs/mercadopago-qr.png) ![Pago Mercado Pago](docs/celmercadopago-qr.png)
+![Pago Mercado Pago](docs/mercadopago-qr.png) 
+
+[VIDEO-DEMO](https://youtu.be/_tiaAWkyocM)
 
 ## Enfoque del Proyecto
 
