@@ -25,7 +25,7 @@ Puedes mostrar una imagen o video del flujo de mesas (principal, secundario y te
 
 ![Gestión de mesas](docs/gestion-mesas.png)
 
-<video src="docs/assets/videos/gestion-mesas.mp4" controls width="900"></video>
+<video src="docs/gestion-mesas.mp4" controls width="900"></video>
 
 ### Método de Pago - Mercado Pago
 
