@@ -2,7 +2,7 @@
 
 Este repositorio contiene únicamente la **estructura de carpetas** de **Sodae**, un proyecto SaaS multi-tenant para el sector gastronómico.
 
-![Sodae Hero](docs/assets/hero/sodae-hero.png)
+![Sodae Hero](docs/sodae-hero.png)
 
 ## ¿Qué es Sodae?
 
@@ -23,7 +23,7 @@ Sodae está diseñado para operar en múltiples comercios (multi-tenant), permit
 
 Puedes mostrar una imagen o video del flujo de mesas (principal, secundario y terraza):
 
-![Gestión de mesas](docs/assets/tables/gestion-mesas.png)
+![Gestión de mesas](docs/gestion-mesas.png)
 
 <video src="docs/assets/videos/gestion-mesas.mp4" controls width="900"></video>
 
