@@ -2,6 +2,8 @@
 
 Este repositorio contiene únicamente la **estructura de carpetas** de **Sodae**, un proyecto SaaS multi-tenant para el sector gastronómico.
 
+![Sodae Hero](docs/assets/hero/sodae-hero.png)
+
 ## ¿Qué es Sodae?
 
 **Sodae** es una plataforma SaaS pensada para digitalizar la operación completa de negocios gastronómicos.
@@ -14,6 +16,22 @@ Su propuesta central es unificar en un solo sistema:
 - El acceso público y onboarding desde el sitio principal
 
 Sodae está diseñado para operar en múltiples comercios (multi-tenant), permitiendo que cada restaurante, bar o cafetería tenga su propio espacio aislado dentro de la plataforma.
+
+## Demo Visual
+
+### Gestión de Mesas
+
+Puedes mostrar una imagen o video del flujo de mesas (principal, secundario y terraza):
+
+![Gestión de mesas](docs/assets/tables/gestion-mesas.png)
+
+<video src="docs/assets/videos/gestion-mesas.mp4" controls width="900"></video>
+
+### Método de Pago - Mercado Pago
+
+Imagen del flujo de cobro con QR de Mercado Pago:
+
+![Pago Mercado Pago](docs/assets/payments/mercadopago-qr.png)
 
 ## Enfoque del Proyecto
 
