@@ -1,80 +1,92 @@
-# Sodae - SaaS Multi-Tenant Gastronómico (Estructura Base)
+# Sodae — SaaS Multi-Tenant Gastronómico
 
-Este repositorio contiene únicamente la **estructura de carpetas** de **Sodae**, un proyecto SaaS multi-tenant para el sector gastronómico.
+Plataforma SaaS multi-tenant para operación gastronómica en tiempo real: POS, cocina, pagos y gestión centralizada.
 
 ![Sodae Hero](docs/sodae-hero.png)
 
-## ¿Qué es Sodae?
+---
 
-**Sodae** es una plataforma SaaS pensada para digitalizar la operación completa de negocios gastronómicos.
+## 🚀 Overview
 
-Su propuesta central es unificar en un solo sistema:
+**Sodae** es un sistema diseñado para digitalizar completamente la operación de restaurantes, bares y cafeterías.
 
-- La operación de salón y caja (POS)
-- La gestión de cocina y comandas
-- La administración del negocio (usuarios, métricas y contabilidad)
-- El acceso público y onboarding desde el sitio principal
+Centraliza en una sola plataforma:
 
-Sodae está diseñado para operar en múltiples comercios (multi-tenant), permitiendo que cada restaurante, bar o cafetería tenga su propio espacio aislado dentro de la plataforma.
+- Operación de salón (mesas, pedidos, reservas)
+- Flujo de cocina y comandas en tiempo real
+- Cobros digitales (QR / MercadoPago)
+- Administración del negocio (usuarios, métricas)
 
-## Demo Visual
+Todo bajo una arquitectura **multi-tenant**, donde cada comercio opera de forma aislada y escalable.
 
-### Gestión de Mesas
+---
 
-Centraliza toda la operación del salón en tiempo real: permite gestionar áreas como piso principal, secundario y terraza, crear y editar mesas (estado, capacidad, forma y posición), asignar mesero, reservar/cancelar reservas con seña, y abrir rápidamente pedidos o comandas desde cada mesa. Además, se sincroniza automáticamente con cocina y órdenes mediante websockets.
+## 🎥 Demo
 
-![Gestión de mesas](docs/gestion-mesas.png)
+### Gestión de Mesas (tiempo real)
+![Gestión de mesas](docs/gestion-mesas.png)  
+https://youtu.be/rzIzwL4FfK8
 
-[VIDEO-DEMO](https://youtu.be/rzIzwL4FfK8)
+---
 
-### Mercado Pago
+### Pagos con QR (MercadoPago)
+![Pago Mercado Pago](docs/mercadopago-qr.png)  
+https://youtu.be/_tiaAWkyocM
 
-Flujo de cobro con QR de Mercado Pago:
+---
 
-![Pago Mercado Pago](docs/mercadopago-qr.png) 
+## 🧠 ¿Por qué es relevante?
 
-[VIDEO-DEMO](https://youtu.be/_tiaAWkyocM)
+Este proyecto simula un entorno real de producción:
 
-## Enfoque del Proyecto
+- Manejo de múltiples negocios (multi-tenant)
+- Sincronización en tiempo real (salón ↔ cocina ↔ caja)
+- Flujo completo de operación (pedido → cocina → cobro)
+- Integración con pagos externos
 
-Plataforma orientada a:
+👉 Enfocado en **problemas reales de negocio**, no solo CRUD.
 
-- Restaurantes
-- Bares
-- Cafeterías
-- Otros comercios gastronómicos
+---
 
-El objetivo es centralizar la operación diaria en una arquitectura escalable y modular.
+## ⚙️ Funcionalidades clave
 
-## Modelo de Producto
+- Gestión de mesas por zonas (piso, terraza, etc.)
+- Creación y seguimiento de pedidos/comandas
+- Flujo de cocina con estados de tickets
+- Cobros con integración de pagos (QR)
+- Gestión de usuarios por roles
+- Comunicación en tiempo real (WebSockets)
 
-- **Site**: landing pública, onboarding y acceso.
-- **Admin**: backoffice para métricas, usuarios y contabilidad.
-- **POS**: operación en tiempo real del negocio (mesas, pedidos, cocina, cobros).
+---
 
-## Funcionalidades
+## 🏗️ Arquitectura
 
-- Gestión de mesas por zonas:
-  - Piso principal
-  - Piso secundario
-  - Terraza
-- Gestión de órdenes y comandas.
-- Flujo de cocina y estado de tickets.
-- Flujo de cobro y medios de pago.
-- Gestión de usuarios por rol.
-- Arquitectura multi-tenant por restaurante/comercio.
-- Comunicación en tiempo real con **WebSockets/SSE** para sincronizar cambios en cocina, salón y caja.
+Sistema modular dividido en:
 
-## Stack Tecnológico
+- **Site** → onboarding y acceso público  
+- **Admin** → métricas, usuarios, contabilidad  
+- **POS** → operación en tiempo real  
 
-- **Frontend**: React + Next.js (App Router)
-- **Backend/API**: Next.js Route Handlers
-- **Lenguajes**: TypeScript, SQL
-- **Base de datos**: MySQL/MariaDB
-- **Tiempo real**: WebSockets
-- **Estilos/UI**: CSS
+Diseñado bajo enfoque:
 
-## Estructura de Carpetas
+- Multi-tenant
+- Separación por dominios
+- Escalabilidad por módulos
+
+---
+
+## 🛠️ Tecnologias 
+
+- Frontend: Next.js (App Router)
+- Backend: Next.js Route Handlers
+- Lenguaje: TypeScript
+- Base de datos: MySQL / MariaDB
+- Tiempo real: WebSockets
+- UI: CSS
+
+---
+
+## 📦 Estructura del Proyecto
 
 ```text
 saas-gastro-structure-only/
