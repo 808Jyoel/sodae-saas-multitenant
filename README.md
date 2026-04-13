@@ -1,8 +1,6 @@
-# Sodae - SaaS Multi-Tenant Gastronómico (Estructura Base)
+# Sodae - SaaS Multi-Tenant
 
 Este repositorio contiene únicamente la **estructura de carpetas** de **Sodae**, un proyecto SaaS multi-tenant para el sector gastronómico.
-
-## ¿Qué es Sodae?
 
 **Sodae** es una plataforma SaaS pensada para digitalizar la operación completa de negocios gastronómicos.
 
@@ -102,10 +100,4 @@ saas-gastro-structure-only/
   docs/
 ```
 
-## Nota
 
-Este repositorio está diseñado como **base de arquitectura de Sodae**:
-
-- No incluye código fuente funcional de negocio.
-- No incluye lógica de implementación.
-- Sirve como plantilla estructural para iniciar un SaaS gastronómico multi-tenant.
