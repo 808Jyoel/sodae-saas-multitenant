@@ -53,7 +53,7 @@ Este proyecto simula un entorno real de producción:
 - Gestión de usuarios por roles
 - Comunicación en tiempo real (WebSockets)
 
----
+
 
 ## 🏗️ Arquitectura
 
@@ -69,7 +69,7 @@ Diseñado bajo enfoque:
 - Separación por dominios
 - Escalabilidad por módulos
 
----
+
 
 ## 🛠️ Tecnologias 
 
@@ -80,7 +80,7 @@ Diseñado bajo enfoque:
 - Tiempo real: WebSockets
 - UI: CSS
 
----
+
 
 ## 📦 Estructura del Proyecto
 
