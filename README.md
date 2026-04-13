@@ -4,7 +4,6 @@ Plataforma SaaS multi-tenant para operación gastronómica en tiempo real: POS, 
 
 ![Sodae Hero](docs/sodae-hero.png)
 
----
 
 ## 🚀 Overview
 
@@ -19,7 +18,6 @@ Centraliza en una sola plataforma:
 
 Todo bajo una arquitectura **multi-tenant**, donde cada comercio opera de forma aislada y escalable.
 
----
 
 ## 🎥 Demo
 
@@ -27,13 +25,13 @@ Todo bajo una arquitectura **multi-tenant**, donde cada comercio opera de forma 
 ![Gestión de mesas](docs/gestion-mesas.png)  
 https://youtu.be/rzIzwL4FfK8
 
----
+
 
 ### Pagos con QR (MercadoPago)
 ![Pago Mercado Pago](docs/mercadopago-qr.png)  
 https://youtu.be/_tiaAWkyocM
 
----
+
 
 ## 🧠 ¿Por qué es relevante?
 
@@ -44,9 +42,7 @@ Este proyecto simula un entorno real de producción:
 - Flujo completo de operación (pedido → cocina → cobro)
 - Integración con pagos externos
 
-👉 Enfocado en **problemas reales de negocio**, no solo CRUD.
 
----
 
 ## ⚙️ Funcionalidades clave
 
