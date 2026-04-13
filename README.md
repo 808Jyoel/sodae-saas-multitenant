@@ -27,7 +27,7 @@ Puedes mostrar una imagen o video del flujo de mesas (principal, secundario y te
 
 [VIDEO-DEMO](https://youtu.be/rzIzwL4FfK8)
 
-### Método de Pago - Mercado Pago
+### Mercado Pago
 
 Imagen del flujo de cobro con QR de Mercado Pago:
 
