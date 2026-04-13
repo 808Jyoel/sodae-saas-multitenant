@@ -23,7 +23,7 @@ Sodae está diseñado para operar en múltiples comercios (multi-tenant), permit
 
 Puedes mostrar una imagen o video del flujo de mesas (principal, secundario y terraza):
 
-![Gestión de mesas](docs/gestion-mesas.png)
+![Gestión de mesas](docs/gestion-mesas.mp4)
 
 <video src="docs/gestion-mesas.mp4" controls width="900"></video>
 
