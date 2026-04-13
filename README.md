@@ -21,7 +21,7 @@ Sodae está diseñado para operar en múltiples comercios (multi-tenant), permit
 
 ### Gestión de Mesas
 
-Centraliza toda la operación del salón en tiempo real: permite gestionar áreas como piso principal, secundario y terraza, crear y editar mesas (estado, capacidad, forma y posición), asignar mesero, reservar/cancelar reservas con seña, y abrir rápidamente pedidos o comandas desde cada mesa. Además, se sincroniza automáticamente con cocina y órdenes mediante eventos en tiempo rea
+Centraliza toda la operación del salón en tiempo real: permite gestionar áreas como piso principal, secundario y terraza, crear y editar mesas (estado, capacidad, forma y posición), asignar mesero, reservar/cancelar reservas con seña, y abrir rápidamente pedidos o comandas desde cada mesa. Además, se sincroniza automáticamente con cocina y órdenes mediante websockets.
 
 ![Gestión de mesas](docs/gestion-mesas.png)
 
